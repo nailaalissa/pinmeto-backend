@@ -1,7 +1,7 @@
 const express = require('express');
 // const { getTokens, getLocations } = require('./apiController/fetchApi.js');
 const router = express.Router();
-const controller = require('./apiController/controller.js');
+const controller = require('./apiController/controller');
 // to get Mapbox Key
 router.get('/mapApi', async (req, res) => {
   try {
